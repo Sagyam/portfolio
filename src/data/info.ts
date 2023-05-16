@@ -92,6 +92,8 @@ export const info = {
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/uzzii-21/astro-portfolio",
       liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      description: "Demo description",
+      technologies: ['Astro', "Tailwind"]
     },
   ],
 };
