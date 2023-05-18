@@ -1,4 +1,5 @@
 export const info = {
+  greeting: 'Hallo 👋',
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Uzair Ahmed",
   jobDescription: "Web Developer",
