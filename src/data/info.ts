@@ -88,12 +88,39 @@ export const info = {
   projects: [
     {
       title: "Astro Portfolio",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
+      technologies: ['Astro', "Tailwind"],
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/uzzii-21/astro-portfolio",
       liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-      description: "Demo description",
-      technologies: ['Astro', "Tailwind"]
+    },
+    {
+      title: "Astro Portfolio",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
+      technologies: ['Astro', "Tailwind"],
+      isFeatured: true,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+    },
+    {
+      title: "Astro Portfolio",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
+      technologies: ['Astro', "Tailwind"],
+      isFeatured: true,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+    },
+    {
+      title: "Astro Portfolio",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
+      technologies: ['Astro', "Tailwind"],
+      isFeatured: true,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
     },
   ],
 };

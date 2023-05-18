@@ -23,6 +23,8 @@ export interface IExperiences {
 
 export interface IProject {
   title: string;
+  description: string;
+  technologies: string[];
   isFeatured: boolean;
   thumbnail: string;
   githubUrl: string;
