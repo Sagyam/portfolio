@@ -1,7 +1,11 @@
 ---
+import { info } from "@data";
+
 import { IHeroProps } from "@types";
+import ButtonWrapper from "@components/general/ButtonWrapper.astro";
 
 const { name, about, greeting } = Astro.props as IHeroProps;
+const Buttons = info.heroButtons;
 ---
 
 <section>
@@ -11,3 +15,5 @@ const { name, about, greeting } = Astro.props as IHeroProps;
 		{about}
 	</p>
 </section>
+
+<ButtonWrapper buttons={Buttons} />

@@ -1,127 +1,122 @@
 export const info = {
-  greeting: 'Hallo 👋',
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  greeting: 'Hello 👋',
+  baseUrl: "https://example.com",
+  name: "Some One",
+  jobDescription: "Job Title",
+  about: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+  tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a 
+  scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum
+   nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt
+    dui ut ornare lectus sit amet est placerat."
   `,
+
+  heroButtons:[
+    {
+      text: 'Resume',
+      icon: '/assets/images/resume.svg',
+      url: 'https://example.com',
+      strartColor: '#9358F7',
+      midColor: '#4A9FEB',
+      endColor: '#10D7E2',
+    },
+    {
+      text: 'Email',
+      icon: '/assets/images/email.svg',
+      url: 'https://example.com',
+      strartColor: '#9358F7',
+      midColor: '#4A9FEB',
+      endColor: '#10D7E2',
+    },
+    {
+      text: 'LinkedIn',
+      icon: '/assets/images/linkedIn.svg',
+      url: 'https://example.com',
+      strartColor: '#9358F7',
+      midColor: '#4A9FEB',
+      endColor: '#10D7E2',
+    },
+    {
+      text: 'Github',
+      icon: '/assets/images/github.svg',
+      url: 'https://example.com',
+      strartColor: '#9358F7',
+      midColor: '#4A9FEB',
+      endColor: '#10D7E2',
+    },
+  ],
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Some Company, LLC",
+      location: "Somewhere, Contry",
+      startDate: "mmm YYYY",
+      endDate: "mmm YYYY",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
       ],
     },
-
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Some Company, LLC",
+      location: "Somewhere, Contry",
+      startDate: "mmm YYYY",
+      endDate: "mmm YYYY",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
       ],
     },
-
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Some Company, LLC",
+      location: "Somewhere, Some Contry",
+      startDate: "mmm YYYY",
+      endDate: "mmm YYYY",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Some College",
+      location: "Somewhere, Some Contry",
+      startDate: "YYYY",
+      endDate: "YYYY",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Some Degree",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
+      name: "Some College",
+      location: "Somewhere, Some Contry",
+      startDate: "YYYY",
+      endDate: "YYYY",
+      description: [
+        "Some Degree",
+      ],
+    }
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    facebook: "https://example.com",
+    twitter: "https://example.com",
+    github: "https://example.com",
+    email: "someone@email.com",
+    linkedin: "https://example.com",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Project One",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
-      technologies: ['Astro', "Tailwind"],
+      technologies: ['Tech 1', "Tech 2"],
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      githubUrl: "https://example.com",
+      liveUrl: "https://example.com",
     },
-    {
-      title: "Astro Portfolio",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
-      technologies: ['Astro', "Tailwind"],
-      isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-    },
-    {
-      title: "Astro Portfolio",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
-      technologies: ['Astro', "Tailwind"],
-      isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-    },
-    {
-      title: "Astro Portfolio",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
-      technologies: ['Astro', "Tailwind"],
-      isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-    },
+    
   ],
 };

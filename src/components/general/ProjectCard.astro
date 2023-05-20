@@ -28,14 +28,14 @@ const { title, description, technologies, thumbnail, liveUrl, githubUrl } =
 	<div class="flex justify-start gap-x-4">
 		{
 			liveUrl && (
-				<div class="p-[3px] rounded-[4px] bg-gradient-to-r from-[#9358F7] via-[#4A9FEB] to-[#10D7E2]">
-					<div class="p-3 bg-white dark:bg-black">
-						<a
-							class="flex gap-x-2 dark:text-white cursor-pointer"
-							href={liveUrl}
-							aria-label="Link"
-							target="_blank"
-						>
+				<a
+					class=" dark:text-white cursor-pointer"
+					href={liveUrl}
+					aria-label="Link"
+					target="_blank"
+				>
+					<div class="p-[3px] rounded-[4px] bg-gradient-to-r from-[#9358F7] via-[#4A9FEB] to-[#10D7E2]">
+						<div class="flex gap-x-2 py-3 px-5 bg-white dark:bg-black">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="20"
@@ -52,9 +52,9 @@ const { title, description, technologies, thumbnail, liveUrl, githubUrl } =
 								<line x1="8" y1="12" x2="16" y2="12" />
 							</svg>
 							Live Demo
-						</a>
+						</div>
 					</div>
-				</div>
+				</a>
 			)
 		}
 		{

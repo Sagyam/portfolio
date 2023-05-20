@@ -38,3 +38,20 @@ export interface IProjects {
 export interface IProjectDetails {
   projectDetail: IProject;
 }
+
+export interface IFancyButton {
+  text: string;
+  icon: string;
+  url: string;
+  strartColor: string;
+  midColor: string;
+  endColor: string;
+}
+
+export interface IFancyButtons {
+  buttons: IFancyButton[];
+}
+
+export interface IFancyButtonDetails {
+  buttonDetail: IFancyButton;
+}

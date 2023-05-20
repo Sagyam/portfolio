@@ -1,0 +1,10 @@
+---
+import { IFancyButtons } from "@types";
+import FancyButton from "./FancyButton.astro";
+
+const { buttons } = Astro.props as IFancyButtons;
+---
+
+<section class="flex gap-x-2">
+	{buttons.map((button) => <FancyButton buttonDetail={button} />)}
+</section>
