@@ -13,7 +13,7 @@ export const info = {
   heroButtons:[
     {
       text: 'Resume',
-      icon: '/assets/images/resume.svg',
+      icon: 'mdi:file-account',
       url: 'https://example.com',
       strartColor: '#9358F7',
       midColor: '#4A9FEB',
@@ -21,15 +21,15 @@ export const info = {
     },
     {
       text: 'Email',
-      icon: '/assets/images/email.svg',
-      url: 'https://example.com',
+      icon: 'mdi:email',
+      url: `mailto:someone@email.com`,
       strartColor: '#9358F7',
       midColor: '#4A9FEB',
       endColor: '#10D7E2',
     },
     {
       text: 'LinkedIn',
-      icon: '/assets/images/linkedIn.svg',
+      icon: 'mdi:linkedin',
       url: 'https://example.com',
       strartColor: '#9358F7',
       midColor: '#4A9FEB',
@@ -37,7 +37,7 @@ export const info = {
     },
     {
       text: 'Github',
-      icon: '/assets/images/github.svg',
+      icon: 'mdi:github',
       url: 'https://example.com',
       strartColor: '#9358F7',
       midColor: '#4A9FEB',

@@ -2,6 +2,7 @@
 import { IFancyButtonDetails } from "@types";
 const { buttonDetail } = Astro.props as IFancyButtonDetails;
 const { text, icon, url, strartColor, midColor, endColor } = buttonDetail;
+import { Icon } from "astro-icon";
 ---
 
 <div
@@ -14,7 +15,7 @@ const { text, icon, url, strartColor, midColor, endColor } = buttonDetail;
 			aria-label="Link"
 			target="_blank"
 		>
-			<img src={icon} />
+			<Icon name={icon} width="20" />
 			{text}
 		</a>
 	</div>
