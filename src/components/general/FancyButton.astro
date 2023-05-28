@@ -1,22 +1,24 @@
 ---
 import { IFancyButtonDetails } from "@types";
 const { buttonDetail } = Astro.props as IFancyButtonDetails;
-const { text, icon, url, strartColor, midColor, endColor } = buttonDetail;
+const { text, icon, url, gradient, shadow } = buttonDetail;
 import { Icon } from "astro-icon";
 ---
 
 <div
-	class=`p-[3px] rounded-[4px] bg-gradient-to-r from-[${strartColor}] via-[${midColor}] to-[${endColor}]`
+	class=`p-[3px] rounded-[4px] transition duration-350 ease-in-out ${gradient} ${shadow}`
 >
-	<div class="flex gap-x-2 py-3 px-7 bg-white dark:bg-black">
-		<a
-			class="flex gap-x-2 dark:text-white cursor-pointer"
-			href={url}
-			aria-label="Link"
-			target="_blank"
+	<a
+		class=`flex dark:text-white cursor-pointer`
+		href={url}
+		aria-label="Link"
+		target="_blank"
+	>
+		<div
+			class=`flex justify-center gap-x-2 py-3 w-48 h-12 bg-white dark:bg-black hover:bg-transparent dark:hover:bg-transparent	 hover:text-white`
 		>
-			<Icon name={icon} width="20" />
+			<Icon name={icon} width="22" />
 			{text}
-		</a>
-	</div>
+		</div>
+	</a>
 </div>

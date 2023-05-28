@@ -43,9 +43,8 @@ export interface IFancyButton {
   text: string;
   icon: string;
   url: string;
-  strartColor: string;
-  midColor: string;
-  endColor: string;
+  gradient: string;
+  shadow: string;
 }
 
 export interface IFancyButtons {
