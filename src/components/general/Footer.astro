@@ -18,36 +18,28 @@ import { Icon } from "astro-icon";
 	</p>
 	<div class="grid grid-cols-5 gap-4">
 		<a
-			aria-label="Social Media"
-			href={info.socialMedia.twitter}
+			aria-label="Github"
+			href={info.socialMedia.github}
 			target="_blank"
 			class="footer-icons"
 		>
-			<Icon name="line-md:twitter" width="28" />
-			<a
-				aria-label="Social Media"
-				href={info.socialMedia.github}
-				target="_blank"
-				class="footer-icons"
-			>
-				<Icon name="line-md:github" width="24" />
-			</a>
-			<a
-				aria-label="Social Media"
-				href={info.socialMedia.linkedin}
-				target="_blank"
-				class="footer-icons"
-			>
-				<Icon name="line-md:linkedin" width="24" />
-			</a>
-			<a
-				aria-label="Social Media"
-				href={`mailto:` + info.socialMedia.email}
-				target="_blank"
-				class="footer-icons"
-			>
-				<Icon name="line-md:email" width="24" />
-			</a>
+			<Icon name="line-md:github" width="24" />
+		</a>
+		<a
+			aria-label="LinkeIn"
+			href={info.socialMedia.linkedin}
+			target="_blank"
+			class="footer-icons"
+		>
+			<Icon name="line-md:linkedin" width="24" />
+		</a>
+		<a
+			aria-label="Email"
+			href={`mailto:` + info.socialMedia.email}
+			target="_blank"
+			class="footer-icons"
+		>
+			<Icon name="line-md:email" width="24" />
 		</a>
 	</div>
 </footer>

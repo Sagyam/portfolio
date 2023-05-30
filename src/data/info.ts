@@ -12,7 +12,7 @@ export const info = {
       Matrice AI, I optimized landing pages and built front-end solutions using React and 
       Typescript. I also contributed to e-commerce platforms and a learning management system.
        Outside of coding, I enjoy listening to podcasts, reading bestsellers, cooking, and gaming.
-      I'm excited to showcase my skills and experiences, so feel free to explore my portfolio!"
+      I'm excited to showcase my skills and experiences, so feel free to explore my portfolio!
   `,
 
   heroButtons:[
@@ -57,6 +57,7 @@ export const info = {
         "-> Dashboard: Built the front-end for matrice.ai data annotation, training and inference platform using React and Typescript.",
         "-> Data Labeling Platform: Built back-end for annotation platform with using NodeJS and Docker and integrated it with other micro-services and deployed it in AWS.",
       ],
+      url: 'https://matrice.ai',
     },
     {
       name: "Soezze Ecommerce",
@@ -66,6 +67,7 @@ export const info = {
       description: [
         "-> E-commerce Platform: Designed and built a e-commerce website and admin dashboard for Soezze. ",
       ],
+      url: 'https://soezze.com',
     },
     {
       name: "Alhasant Technologies Ltd",
@@ -75,6 +77,7 @@ export const info = {
       description: [
         "-> Makers Asylum: Responsible for creating a learning management system from Figma designs using vanilla JavaScript and Firebase as the back-end. ",
       ],
+      url: 'https://makersasylum.com',
     },
   ],
 

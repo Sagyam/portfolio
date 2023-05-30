@@ -16,6 +16,7 @@ export interface IExperience {
   startDate: string;
   endDate: string;
   description: string[];
+  url: string;
 }
 export interface IExperiences {
   title: string;

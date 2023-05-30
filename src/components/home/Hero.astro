@@ -8,10 +8,10 @@ const { name, about, greeting } = Astro.props as IHeroProps;
 const Buttons = info.heroButtons;
 ---
 
-<section>
-	<p class="dark:text-light mt-[117px]">{greeting}, I’m</p>
+<section class="my-8">
+	<p class="dark:text-gray">{greeting}, I’m</p>
 	<h1>{name}</h1>
-	<p class="dark:text-light text-lg mb-16">
+	<p class="dark:text-gray text-lg text-justify max-w-6xl">
 		{about}
 	</p>
 </section>
