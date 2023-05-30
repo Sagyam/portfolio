@@ -4,15 +4,15 @@ export const info = {
   name: "Sagyam Thapa",
   jobDescription: "Software Developer",
   about: `I'm  passionate coder with diverse experience and a love for technology.
-   My journey began in 2019 when I won a software competition for building a tank
-    battle game in Unreal Engine. Although I explored game development, my true passion
-     lies in AI, particularly deep learning. I've worked on fascinating computer vision,
-      NLP, and large-scale web scraping projects. Additionally, I've gained practical 
-      experience through freelance web development projects. As a frontend developer at 
-      Matrice AI, I optimized landing pages and built front-end solutions using React and 
-      Typescript. I also contributed to e-commerce platforms and a learning management system.
-       Outside of coding, I enjoy listening to podcasts, reading bestsellers, cooking, and gaming.
-      I'm excited to showcase my skills and experiences, so feel free to explore my portfolio!
+  My journey began in 2019 when I won a software competition for building a tank
+  battle game in Unreal Engine. Although I explored game development, my true passion
+  lies in AI, particularly deep learning. I've worked on fascinating computer vision,NLP
+  and large-scale web scraping projects. Additionally, I've gained practical 
+  experience through freelance web development projects. As a frontend developer at 
+  Matrice AI, I optimized landing pages and built front-end solutions using React and 
+  Typescript. I also contributed to e-commerce platforms and a learning management system.
+  Outside of coding, I enjoy listening to podcasts, reading bestsellers, cooking, and gaming.
+  I'm excited to showcase my skills and experiences, so feel free to explore my portfolio!
   `,
 
   heroButtons:[

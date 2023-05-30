@@ -12,7 +12,7 @@ const Buttons = info.heroButtons;
 	<p class="dark:text-gray">{greeting}, I’m</p>
 	<h1>{name}</h1>
 	<p class="dark:text-gray text-lg text-justify max-w-6xl">
-		{about}
+		<Fragment set:html={about} />
 	</p>
 </section>
 

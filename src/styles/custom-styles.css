@@ -5,17 +5,17 @@
   font-style: normal;
   font-weight: 600;
   background: linear-gradient(
-    89.81deg,
-    #9845e8 -1.72%,
-    #33d2ff 54.05%,
-    #dd5789 99.78%
+    90deg,
+    #9845e8 0%,
+    #33d2ff 50%,
+    #dd5789 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
   background-size: 150% 150%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 2s ease-in-out infinite;
   line-height: 1.2;
 }
 
