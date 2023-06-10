@@ -5,11 +5,11 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.sagyamthapa.com.np/projects",
+  site: "https://www.sagyamthapa.com.np",
   integrations: [
     tailwind(),
     sitemap({
-      changefreq: "weekly",
+      changefreq: "monthly",
       priority: 0.7,
       lastmod: new Date(),
       entryLimit: 10000,
