@@ -19,7 +19,7 @@ export const info = {
     {
       text: 'Resume',
       icon: 'mdi:file-account',
-      url: 'http://sagyamthapa.com.np/assets/sagyam-thapa.pdf',
+      url: 'https://sagyamthapa.com.np/assets/sagyam-thapa.pdf',
       gradient: 'bg-gradient-to-r from-[#9358F7] via-[#4A9FEB] to-[#10D7E2]',
       shadow: 'shadow-[0_0px_50px_-10px] shadow-[#10D7E2]/50 hover:shadow-none',
     },
