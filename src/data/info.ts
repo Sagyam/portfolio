@@ -3,16 +3,24 @@ export const info = {
   baseUrl: "https://www.sagyamthapa.com.np",
   name: "Sagyam Thapa",
   jobDescription: "Software Developer",
-  about: `I'm  passionate coder with diverse experience and a love for technology.
+  about: `
+  
+  I'm  engineer with diverse experience and a love for everythng computer science.
   My journey began in 2019 when I won a software competition for building a tank
-  battle game in Unreal Engine. Although I explored game development, my true passion
-  lies in AI, particularly deep learning. I've worked on fascinating computer vision,NLP
-  and large-scale web scraping projects. Additionally, I've gained practical 
-  experience through freelance web development projects. As a frontend developer at 
-  Matrice AI, I optimized landing pages and built front-end solutions using React and 
-  Typescript. I also contributed to e-commerce platforms and a learning management system.
-  Outside of coding, I enjoy listening to podcasts, reading bestsellers, cooking, and gaming.
-  I'm excited to showcase my skills and experiences, so feel free to explore my portfolio!
+  battle game in Unreal Engine. Since then I explored areas like game development, 
+  deep learning mainly computer vision and nlp 
+  and automation like web scraping.
+  
+  Additionally, I've gained practical 
+  experience through freelance projects. As a frontend developer at 
+  Matrice AI, I have learnt to build peroformance optimized web apps for 
+  for small and large companies.
+  
+  I'm currently looking for opportunities to grow my skills and 
+  to learn more about the world of computer science.
+  
+  I'm a self taught programmer, I'm always looking for new things to learn.
+
   `,
 
   heroButtons:[
@@ -47,6 +55,18 @@ export const info = {
   ],
 
   experience: [
+    {
+      name: "Talent Exploriz",
+      location: "Freelance",
+      startDate: "Jan 2022",
+      endDate: "Jun 2023",
+      description: [
+        "->  Built frontend for a event management app talentexploriz using React, Typescript, Tailwind CSS",
+        "->  Built a fully functional backend with JWT based authentication and using Typescript, NodeJS",
+        "->  Deployed the applciation by building a CI pipeline usign Github Actions on AWS Amplify, EC2, S3 Buckets, MongDB Atlas  ",
+      ],
+      url: 'https://www.talentexploriz.com.np/',
+    },
     {
       name: "Matrice AI",
       location: "Remote",
@@ -96,18 +116,36 @@ export const info = {
   socialMedia: {
     github: "https://github.com/sagyam",
     email: "mailto:sagyamthapa32@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sagyam",
+    linkedin: "https://linkedin.com/in/sagyam",
   },
 
   projects: [
     {
-      title: "Project One",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus semper eget. Ultrices neque ornare aenean euismod elementum nisi quis. Volutpat consequat mauris nunc congue nisi vitae. Massa tincidunt dui ut ornare lectus sit amet est placerat.",
-      technologies: ['Tech 1', "Tech 2"],
+      title: "Talent Exploreiz",
+      description: "An event management platform that helps organizations to manage events and participants.",
+      technologies: ['React', "Nodejs"],
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://example.com",
-      liveUrl: "https://example.com",
+      thumbnail: "/assets/images/talnet-exploriz.png",
+      githubUrl: "",
+      liveUrl: "https://talentexploriz.com.np/",
+    },
+    {
+      title: "Handwritten Equation Solver and Visulalizer",
+      description: "Final year project. Web application that can solve and plot Handwritten Polynomial and Linear Equations.",
+      technologies: ['Tensorflow', "Python", "Django"],
+      isFeatured: true,
+      thumbnail: "/assets/images/hesv.jpeg",
+      githubUrl: "https://github.com/Sagyam/Major-Project-Backend",
+      liveUrl: "",
+    },
+    {
+      title: "DevCamper API",
+      description: "Backend API for DevCamper application, which is a bootcamp directory website",
+      technologies: ['Express', "Nodejs", "JWT"],
+      isFeatured: true,
+      thumbnail: "/assets/images/dev-camper.jpeg",
+      githubUrl: "https://github.com/Sagyam/devCamper",
+      liveUrl: "",
     },
     
   ],
