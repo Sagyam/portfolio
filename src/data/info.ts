@@ -145,7 +145,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/dev-camper.jpeg",
       githubUrl: "https://github.com/Sagyam/devCamper",
-      liveUrl: "",
+      liveUrl: "https://devcamper-production-5d2e.up.railway.app",
     },
     
   ],
