@@ -135,8 +135,8 @@ export const info = {
       technologies: ['Tensorflow', "Python", "Django"],
       isFeatured: true,
       thumbnail: "/assets/images/hesv.jpeg",
-      githubUrl: "https://github.com/Sagyam/Major-Project-Backend",
-      liveUrl: "",
+      githubUrl: "https://github.com/Sagyam/hesv-api",
+      liveUrl: "https://sagyam.github.io/hesv-app/",
     },
     {
       title: "DevCamper API",
