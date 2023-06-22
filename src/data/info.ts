@@ -123,7 +123,7 @@ export const info = {
     {
       title: "Talent Exploreiz",
       description: "An event management platform that helps organizations to manage events and participants.",
-      technologies: ['React', "Nodejs"],
+      technologies: ['React', "Nodejs", "Typescript", "Tailwind CSS"],
       isFeatured: true,
       thumbnail: "/assets/images/talnet-exploriz.png",
       githubUrl: "",
@@ -147,6 +147,23 @@ export const info = {
       githubUrl: "https://github.com/Sagyam/devCamper",
       liveUrl: "https://devcamper.up.railway.app",
     },
-    
+    {
+      title: "Web Scraper",
+      description: "A crawler that scrapes news from various nepali news portals.",
+      technologies: ['Python', "Scrapy"],
+      isFeatured: true,
+      thumbnail: "/assets/images/scrapy.png",
+      githubUrl: "https://github.com/Sagyam/Nepali-News-Scraper",
+      liveUrl: "",
+    },
+    {
+      title: "Study Buddy",
+      description: "StudyBuddy is discord like website for finding for people to study together.",
+      technologies: ['Python', "Django", "SQLite"],
+      isFeatured: true,
+      thumbnail: "/assets/images/study-buddy.png",
+      githubUrl: "https://github.com/Sagyam/StudyBudddy",
+      liveUrl: "",
+    },
   ],
 };
