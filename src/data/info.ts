@@ -5,21 +5,12 @@ export const info = {
   jobDescription: "Software Developer",
   about: `
   
-  I'm  engineer with diverse experience and a love for everythng computer science.
-  My journey began in 2019 when I won a software competition for building a tank
-  battle game in Unreal Engine. Since then I explored areas like game development, 
-  deep learning mainly computer vision and nlp 
-  and automation like web scraping.
-  
-  Additionally, I've gained practical 
-  experience through freelance projects. As a frontend developer at 
-  Matrice AI, I have learnt to build peroformance optimized web apps for 
-  for small and large companies.
-  
-  I'm currently looking for opportunities to grow my skills and 
-  to learn more about the world of computer science.
-  
-  I'm a self taught programmer, I'm always looking for new things to learn.
+I’m a backend and full-stack developer with experience 
+in designing scalable systems, building APIs, and deploying high-performance solutions.
+I’ve worked on ERP systems, observability stacks, and client reporting services,
+with expertise in building robust infrastructures and ensuring efficient system performance.
+I thrive in solving complex challenges, optimizing code, and creating reliable, maintainable software. 
+Let’s connect to discuss how we can collaborate on impactful projects.
 
   `,
 
@@ -56,6 +47,50 @@ export const info = {
 
   experience: [
     {
+      name: "Bitmosys",
+      location: "Full-time",
+      startDate: "Feb 2024",
+      endDate: "Present",
+      description: [
+          "-> Designed database schema and architectural diagrams and tech stack for a ERP application",
+          "-> Researched and presented findings on various self managed OSS and SaaS based options for database,\n" +
+          "observability, object storage, cloud providers, authentication, email and disaster recovery strategies",
+          "-> Wrote the foundation code, establish coding guidelines and setup CI/CD for the frontend and backend code\n" +
+          "base",
+          "-> Built self managed observability stack using Loki, Grafana, Prometheus, Jaeger and Uptime-Kuma",
+          "-> Build logging and tracing service to capture and send logs and traces",
+          "-> Built dashboard in Grafana to visualize data from these sources",
+          "-> Set up monitoring and alerting using Uptime-Kuma and Alertmanager with an escalation chain",
+          "-> Deployed the said monitoring stack with appropriate level of scaling and retention",
+          "-> Deployed a Postgres cluster with high availability replication, backups and logging",
+          "-> Deployed a Redis cluster with high availability for storing ACL",
+          "-> Deployed a Nginx as API gateway with cert manager for SSL connection",
+          "-> Deployed all APIs with horizontal pod auto scaling",
+          "-> Deployed a Linkerd service mesh for monitoring inter-pod latency and securing inter-pod traffic with mTLS",
+          "-> Built APIs and CRUD endpoints using NestJS following best coding practises",
+          "-> Introduced practise of documenting and diagramming important parts of the project",
+          "-> Built a service for sending emails with retry logic and recording the mail for archival purpose",
+          "-> Built a cluster wide distributed rate limiter for preventing abuse of resources",
+          "-> Build service for asynchronously generating, storing and mailing various types of pdf documents",
+      ],
+      url: 'https://www.linkedin.com/company/bitmosys/mycompany/',
+    },
+      {
+      name: "Cango",
+      location: "Freelance",
+      startDate: "Nov 2023",
+      endDate: "Sept 2024",
+      description: [
+        "->  Component Library: Built an reusable component library with over 25 components from a new design system",
+        "->  Dashboards: Built dashboards with said UI components for users with varying permission levels",
+        "->  Form builder: Built a google forms like form builder to capture survey response from voters",
+        "->  Data Visualization: Build dashboard using Apache ECharts to visualize the responses captured from the said surveys",
+        "->  Refactor: Refactored legacy code to typescript following best practises for type safety",
+        "->  Optimizations: Reduced over fetching and fetching states with React Query"
+      ],
+      url: 'https://cangoapp.ca/',
+    },
+      {
       name: "Talent Exploriz",
       location: "Freelance",
       startDate: "Jan 2022",
@@ -69,7 +104,7 @@ export const info = {
     },
     {
       name: "Matrice AI",
-      location: "Remote",
+      location: "Full-time",
       startDate: "Jun 2022",
       endDate: "Jun 2023",
       description: [
@@ -80,18 +115,8 @@ export const info = {
       url: 'https://matrice.ai',
     },
     {
-      name: "Soezze Ecommerce",
-      location: "Kathmandu,, Nepal",
-      startDate: "Winter",
-      endDate: "2021",
-      description: [
-        "-> E-commerce Platform: Designed and built a e-commerce website and admin dashboard for Soezze. ",
-      ],
-      url: 'https://soezze.com',
-    },
-    {
       name: "Alhasant Technologies Ltd",
-      location: "Remote",
+      location: "Intership",
       startDate: "Summer",
       endDate: "2021",
       description: [
